@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(176, 19, 176),
+    rgb(131, 131, 243)
+  );
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 5px;
+}
+.container h3 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+}
+form {
+  margin-left: 30px;
+}
+form h4,
+input {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+form input {
+  width: 90%;
+  border: 0;
+  outline: 0;
+  padding: 2px;
+}
+form input:hover {
+  border-bottom: 2px solid #333;
+}
+form div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+form div a {
+  margin-right: 25px;
+  margin: 10px;
+  color: #333;
+  font-size: 15px;
+}
+form .btn {
+  background-image: linear-gradient(
+    to left,
+    rgb(176, 19, 176),
+    rgb(131, 131, 243)
+  );
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.container .this {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.this .social {
+  margin-bottom: 20px;
+}
+.this .social p {
+  margin-bottom: 14px;
+  font-size: 15px;
+  margin-left: 0px;
+}
+.this .social .app {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: 14px;
+}
+.social .app .app1 {
+  margin-right: 12px;
+}
+.app1 i {
+  font-size: 25px;
+  color: aqua;
+}
+.social p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.social a {
+  margin-left: 50px;
+}
